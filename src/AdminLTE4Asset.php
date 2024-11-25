@@ -2,6 +2,7 @@
 namespace yii\AdminLTE4;
 
 use yii\bootstrap5\BootstrapAsset;
+use yii\fontawesome\assets\FontAwesomeAsset;
 use yii\web\AssetBundle;
 
 class AdminLTE4Asset extends AssetBundle
@@ -10,7 +11,7 @@ class AdminLTE4Asset extends AssetBundle
         BootstrapAsset::class,
         FontAwesomeAsset::class,
     ];
-    public $sourcePath = '@vendor/yii/AdminLTE4/dist';
+    public $sourcePath = __DIR__ . '/dist';
 
     public $css = [
         "css/adminlte.min.css",
