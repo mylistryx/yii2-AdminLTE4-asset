@@ -1,0 +1,44 @@
+{
+  "name": "mylistryx/yii2-adminlte4-asset",
+  "description": "Yii2 AdminLTE4 asset bundle with Bootstrap 5 support",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Sergey Zhukovskiy",
+      "email": "mylistryx@gmail.com",
+      "homepage": "https://net23.ru"
+    }
+  ],
+  "keywords": [
+    "yii2",
+    "Admi4LTE",
+    "asset",
+    "bundle",
+    "free"
+  ],
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "yii\\AdminLTE4\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "mylistryx/yii2-fontawesome-free": "~2.0.0",
+    "yiisoft/yii2": "~2.0.50"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
+    }
+  }
+}
