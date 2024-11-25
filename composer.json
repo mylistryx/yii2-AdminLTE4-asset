@@ -13,10 +13,11 @@
   ],
   "keywords": [
     "yii2",
-    "Admi4LTE",
+    "AdminLTE4",
     "asset",
     "bundle",
-    "free"
+    "free",
+	"bootstrap5"
   ],
   "version": "1.0.0",
   "readme": "readme.md",
