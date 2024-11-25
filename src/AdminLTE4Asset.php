@@ -10,13 +10,13 @@ class AdminLTE4Asset extends AssetBundle
         BootstrapAsset::class,
         FontAwesomeAsset::class,
     ];
-    public string $sourcePath = '@vendor/yii/AdminLTE4/dist';
+    public $sourcePath = '@vendor/yii/AdminLTE4/dist';
 
-    public array $css = [
+    public $css = [
         "css/adminlte.min.css",
     ];
 
-    public array $js = [
+    public $js = [
         "js/adminlte.min.js",
     ];
 }
