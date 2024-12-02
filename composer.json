@@ -14,13 +14,15 @@
   "keywords": [
     "yii2",
     "AdminLTE4",
+    "AdminLTE",
+    "admin",
     "asset",
     "bundle",
     "free",
 	"bootstrap5"
   ],
-  "version": "1.0.0",
-  "readme": "readme.md",
+  "version": "1.0.1",
+  "readme": "README.md",
   "repositories": [
     {
       "type": "composer",
@@ -34,7 +36,6 @@
   },
   "require": {
     "php": ">=8.2",
-    "mylistryx/yii2-fontawesome-free": "~2.0.0",
     "yiisoft/yii2": "~2.0.50"
   },
   "config": {

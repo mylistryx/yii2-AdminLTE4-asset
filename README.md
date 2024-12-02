@@ -1,4 +1,4 @@
-# Admin4LTE asset bundle for Yii 2.0 Framework #
+# AdminLTE4 asset bundle for Yii 2.0 Framework #
 
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
@@ -9,7 +9,7 @@
     </a>
 </p>
 
-## Installation #
+## Installation
 ___
 
 The preferred way to install this extension is through [composer ](http://getcomposer.org/download/)
@@ -18,12 +18,21 @@ Either run: `composer require mylistryx/yii2-adminlte4-asset`  or add `"mylistry
 
 Then register assets in your view file: `AdminLTE4Asset::register($this)`.
 
+## See more
 
-## Dependencies ##
+---
+https://github.com/mylistryx/yii2-fontawesome-free - FontAwesome Free asset bundle
+
+https://github.com/mylistryx/yii2-fontawesome-pro - FontAwesome PRO asset bundle
+
+https://github.com/mylistryx/yii2-overlay-scrollbars-asset - OverlayScrollbars asset bundle for AdminLTE4
+
+https://github.com/mylistryx/yii2-dynamic-form - Dynamic form [WIP]
+
+
+## Dependencies
 
 ---
 This package depends on:
 - `"php": ">=8.2"`
 - `"yiisoft/yii2": "~2.0.0"` base framework files
-- `"yiisoft/yii2-bootstrap5": "~2.0.0"` !!! NOT Bootstrap4 !!!
-- `"mylistryx/yii2-fontawesome-free": "~2.0.0"` to show icons in tour application.
