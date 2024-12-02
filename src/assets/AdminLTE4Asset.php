@@ -15,4 +15,11 @@ class AdminLTE4Asset extends AssetBundle
     public $js = [
         "js/adminlte.min.js",
     ];
+
+    public $publishOptions = [
+        'only' => [
+            'css/*',
+            'js/*',
+        ],
+    ];
 }

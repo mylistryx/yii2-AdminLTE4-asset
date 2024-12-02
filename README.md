@@ -21,9 +21,13 @@ Then register assets in your view file: `AdminLTE4Asset::register($this)`.
 ## See more
 
 ---
+https://github.com/mylistryx/yii2-source-sans-3-asset Source Sans 3 font asset bundle for AdminLTE4
+
 https://github.com/mylistryx/yii2-fontawesome-free - FontAwesome Free asset bundle
 
 https://github.com/mylistryx/yii2-fontawesome-pro - FontAwesome PRO asset bundle
+
+https://github.com/mylistryx/yii2-bootstrap-icons-asset - Bootstrap Icons asset bundle
 
 https://github.com/mylistryx/yii2-overlay-scrollbars-asset - OverlayScrollbars asset bundle for AdminLTE4
 
